@@ -12,7 +12,7 @@ struct Rectangle
 };
 
 struct Node {
-	std::unique_ptr<Node> child[2]; // right child, bottom child
+	std::unique_ptr<Node> child[2];
 	Rectangle rc;
 	PackRect *prect;
 
